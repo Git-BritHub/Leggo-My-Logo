@@ -1,13 +1,15 @@
 // packages needed for this application
 const inquirer = require("inquirer");
 const { writeFile } = require("fs/promises");
+const { Circle, Triangle, Square } = require("./lib/shapes");
+const svg = require("./lib/svg");
 
 // array of logo related questions for user input
 const questions = [
     {
         type: "input",
         name: "logoText",
-        message: "Enter up to three characters of text for your logo:",
+        message: "Enter up to three characters of text for your logo: ",
     },
     {
         type: "input",
@@ -26,3 +28,11 @@ const questions = [
         message: "What color would you like your shape to have? (Enter color name or hexadecimal number)",
     }, 
 ];
+
+const initLogo = () => {
+    inquirer.prompt(questions).then((data) => {
+        writeFile("logo.svg", { Circle, Triangle, Square }, svg(data))
+    });
+};
+
+initLogo();
