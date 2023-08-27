@@ -6,7 +6,7 @@ const { writeFile } = require("fs/promises");
 const questions = [
     {
         type: "input",
-        name: "text",
+        name: "logoText",
         message: "Enter up to three characters of text for your logo:",
     },
     {
