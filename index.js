@@ -44,7 +44,7 @@ const initLogo = () => {
         const svg = new SVG()
         svg.setShape(shape)
         svg.setText(data.text, data.textColor)
-        return writeFile("logo.svg", svg.render())
+        return writeFile("./dist/logo.svg", svg.render())
     }).then(() => {
         console.log("Generated logo.svg!")
     })
