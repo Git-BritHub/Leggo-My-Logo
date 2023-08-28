@@ -32,7 +32,7 @@ const questions = [
 const initLogo = () => {
     inquirer.prompt(questions).then((data) => {
         let shape;
-        if(data.shape === "Circle") {
+        if (data.shape === "Circle") {
             shape = new Circle()
         } else if (data.shape === "Triangle") {
             shape = new Triangle()
@@ -45,7 +45,13 @@ const initLogo = () => {
         svg.setShape(shape)
         svg.setText(data.text, data.textColor)
         return writeFile("logo.svg", svg.render())
-    });
+    }).then(() => {
+        console.log("Generated logo.svg!")
+    })
+        .catch((error) => {
+            console.log(error)
+            console.log("Something went wrong!")
+        })
 };
 
 initLogo();
