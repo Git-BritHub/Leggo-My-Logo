@@ -40,8 +40,11 @@ const initLogo = () => {
             shape = new Square()
         }
         shape.setColor(data.shapeColor)
-        
-        //writeFile("logo.svg", SVG(data))
+
+        const svg = new SVG()
+        svg.setShape(shape)
+        svg.setText(data.text, data.textColor)
+        return writeFile("logo.svg", svg.render())
     });
 };
 
