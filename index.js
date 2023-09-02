@@ -39,6 +39,7 @@ const initLogo = () => {
         } else if (data.shape === "Square") {
             shape = new Square()
         }
+        
         shape.setColor(data.shapeColor)
 
         const svg = new SVG()
