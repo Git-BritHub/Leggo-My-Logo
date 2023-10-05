@@ -24,7 +24,7 @@ Leggo-My-Logo is a Node.js command-line application providing users the ability 
 2. Answer the prompt questions given and a `logo.svg` file will be rendered and saved in the `dist` folder.
 4. For a demonstration on how to generate your SVG logo, feel free to view my demo in the [Tests](#tests) section below.
 <br />
-
+<img width="1512" alt="screenshotLML" src="https://github.com/Git-BritHub/Leggo-My-Logo/assets/130286884/77fbc5c0-cebb-44bb-8441-9b8698b6f681">
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-aqua.svg)](https://opensource.org/licenses/MIT)
