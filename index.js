@@ -14,7 +14,7 @@ const questions = [
     {
         type: "input",
         name: "textColor",
-        message: "What would you like the color of your text to be? (Enter color name or hexadecimal number)",
+        message: "What would you like the color of your text to be? (Enter color name or hexadecimal number for text color)",
     },
     {
         type: "list",
@@ -25,7 +25,7 @@ const questions = [
     {
         type: "input",
         name: "shapeColor",
-        message: "What color would you like your shape to have? (Enter color name or hexadecimal number)",
+        message: "What color would you like your shape to have? (Enter color name or hexadecimal number for shape color)",
     },
 ];
 
