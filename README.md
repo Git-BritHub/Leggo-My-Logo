@@ -12,7 +12,7 @@ SVG Logo Maker
 
 
 ## Description
-Leggo-My-Logo is a Node.js command-line application providing users the ability to quickly generate an SVG logo file while utilizing node packages `Jest` and `Inquirer`. After answering a total of four questions, users will be provided with a 300x200 pixel image. This easy and simple logo generator will save web developers time and money in freelance or company web development projects. 
+Leggo-My-Logo is a Node.js command-line application providing users the ability to quickly generate an SVG logo file while utilizing node packages Jest and Inquirer. After answering a total of four questions, users will be provided with a 300x200 pixel image. This easy and simple logo generator will save web developers time and money in freelance or company web development projects. 
 
 ## Installation
 1. Clone my respository by inputting the following in your terminal: `git clone https://github.com/Git-BritHub/Leggo-My-Logo.git`
@@ -35,7 +35,7 @@ Leggo-My-Logo is a Node.js command-line application providing users the ability 
 * https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Texts
 
 ## Tests
-[DEMO and testing](https://drive.google.com/file/d/1wlkLhcMcWjf0_vQPQmXEC0Y8GPV2R10O/view) of each generated shape.
+[DEMO and testing](https://drive.google.com/file/d/1Zrhxr-qIzO8y8DvdltPJ5IrV9e4MFAhA/view) of each generated shape.
 
 ## Questions
 If you find any bugs or have any questions, feel free to reach out to me through GitHub at https://github.com/Git-BritHub 
